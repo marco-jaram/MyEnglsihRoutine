@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #d3c8c8ad;
+    background-color: #050000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    color: #c2755e;
+    text-align: center;
+}
+
+.section {
+    background-color: #2c2b2b;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #397771;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.calendar-header {
+    font-weight: bold;
+    text-align: center;
+    background-color: #354933;
+    color: rgb(152, 184, 194);
+    padding: 5px;
+}
+
+.calendar-day {
+    border: 1px solid #333;
+    padding: 10px;
+    min-height: 100px;
+    background-color: #2b2525;
+}
+
+.task {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.task-anki {
+    background-color: #bbaf6c;
+    color: #30303b;
+}
+
+.task-video {
+    background-color: #b47f6b;
+    color: #30303b;
+}
+
+.task-book {
+    background-color: #599b59;
+    color: #30303b;
+}
+
+.task-script {
+    background-color: #7b63ac;
+    color: #30303b;
+}
+
+.task-writing {
+    background-color: #62adaa;
+    color: #30303b;
+}
+
+details {
+    margin-bottom: 15px;
+    background-color: #161515;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #a37770;
+}
+
+summary:hover {
+    color: #559c43;
+}
+
+
+/* lineas de tiempo */
+.progress-timeline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.timeline-item {
+    margin-bottom: 20px;
+}
+.timeline-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.timeline-dates {
+    font-size: 0.8em;
+    color: #bb86fc;
+}
+.timeline-bar {
+    position: relative;
+    height: 10px;
+    background-color: #3c3f41;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.timeline-progress {
+    position: absolute;
+    height: 100%;
+    background-color: #6a8759;
+    border-radius: 5px;
+}
+.timeline-today {
+    position: absolute;
+    width: 3px;
+    height: 16px;
+    background-color: #cc7832;
+    top: -3px;
+}
